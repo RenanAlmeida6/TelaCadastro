@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <script type="text/javascript" src="telaCadastro.js"></script>
+  <script src="FileSaver.js"></script>
+  <meta charset="UTF-8">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tela de Cadastro</title>
+  <body>
+    <div class="Tela">
+      <div class="ModalCadastro">
+        <div class="Cadastro">
+          <div class="Titulo">
+            <p>
+              <b>Seja bem-vindo(a).</b> Preencha os dados abaixo para começar a usar:
+            </p>
+          </div>
+          <div class="divCampos">
+            <p>E-mail*</p>
+            <input type="text" id="Email" placeholder="Ex: seunome@suaempresa.com.br" >
+          </div>
+          <div class="divCampos">
+            <p>Senha*</p>
+            <input type="password" id="Senha" placeholder="  Informe sua senha">
+          </div>
+          <div class="divCampos">
+            <p>WhatsApp*</p>
+            <input type="text" id="WhatsApp"maxlength="11" placeholder="  Ex:(00) 0 0000-0000"  onkeyup="FormataNumero(this)">
+          </div>
+          <div class="divCampos">
+            <p>CNPJ*</p>
+            <input type="text" id="CNPJ" maxlength="14" placeholder="  Ex: 00.000.000/0001-00" onkeyup="FormataCNPJ(this)">
+          </div>
+          <div class="divButton">
+            <button onclick="validarCamposEFazDownload()" id="button" class="button" type="button">
+              <div class="divButtonP">
+                <p>Comece a usar!</p>
+              </div>
+              <div class="divButtonIcon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="20" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+              </svg>
+            </div>
+            </button>
+          </div>
+        </div>
+        <div class="ImgCadastro">
+          <img src="Imagens/img-boas-vindas.png" alt="Benefícios Sige">
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

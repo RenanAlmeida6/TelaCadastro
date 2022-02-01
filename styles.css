@@ -1,0 +1,123 @@
+@font-face {
+    font-family: Ubuntu-Light;
+    src: url(Fontes/Ubuntu-Light.ttf);
+}
+@font-face {
+    font-family: Ubuntu-Bold;
+    src: url(Fontes/Ubuntu-Bold.ttf);
+}
+@font-face {
+    font-family: Ubuntu;
+    src: url(Fontes/Ubuntu-Regular.ttf);
+}
+.ModalCadastro {
+    size: 500px;
+    background-color: white;
+    border-radius: 20px;
+    width: 800px;
+    height: 550px;
+}
+.Tela {
+    width: 100vw;
+    height: 100vh;
+    backdrop-filter: brightness(90%);
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.Cadastro {
+    display: inline-grid;
+    width: 320px;
+    height: 475px;
+    padding : 40px 40px 40px  40px;
+}
+.Titulo {
+    color:rgb(0, 71, 152);
+    font-family: Ubuntu-Light;
+    font-size: 21px;
+    font-weight: lighter;
+}
+.Titulo p {
+    margin: 0;
+}
+.Titulo b {
+font-family:Ubuntu-Bold ;
+}
+.ImgCadastro {
+ width: 400px;
+ display: block;
+ float: right;
+}
+.ImgCadastro img{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.divCampos {
+    color:rgb(0, 71, 152);
+    font-family: Ubuntu-Light;
+    font-weight: 100;
+}
+::placeholder {
+    color: rgb(115, 178, 252);
+    font-size: 12px;
+    padding-left: 14px;
+}
+.divCampos input {
+    width: 100%;
+    height: 36px;
+    border: solid 1px;
+    border-color:rgb(216, 216, 216); ;
+    border-radius: 5px;
+    background-color: rgb(249,249,249);
+    color: rgb(115, 178, 252);
+    font-family: Ubuntu-bold;
+}
+.divCampos p {
+    margin:5px 0px 5px 0px;
+}
+.divButton {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-top: 20px;
+}
+.button{
+    width: 192px;
+    border: 0px;
+    background-color: rgb(0, 200, 83);
+    color:white;
+    font-family: Ubuntu-Bold;
+    font-size: 16px;
+    border-radius: 30px;
+    height: 50px;
+}
+.divButton :hover {
+    width: 200px;
+    height: 55px;
+    cursor: pointer;
+}
+.divButtonIcon :hover {
+    width: 32px;
+    height: 22px;
+}
+.button p {
+    padding-left: 5px;
+    margin: 0;
+    width: 100%;
+    height: 80%;
+    display: inline;
+}
+.button svg {
+    padding-left: 2px;
+}
+.divButtonP {
+    height: 30px;
+    width: 100%;
+    display: inline;
+}
+.divButtonIcon {
+    height: 22px;
+    width: 32px;
+    display: inline;
+    vertical-align: sub;
+}
