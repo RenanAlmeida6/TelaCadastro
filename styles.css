@@ -10,12 +10,8 @@
     font-family: Ubuntu;
     src: url(Fontes/Ubuntu-Regular.ttf);
 }
-.ModalCadastro {
-    size: 500px;
-    background-color: white;
-    border-radius: 20px;
-    width: 800px;
-    height: 550px;
+* {
+    margin: 0;
 }
 .Tela {
     width: 100vw;
@@ -30,6 +26,8 @@
     width: 320px;
     height: 475px;
     padding : 40px 40px 40px  40px;
+    background-color: white;
+    border-radius: 20px;
 }
 .Titulo {
     color:rgb(0, 71, 152);
@@ -59,8 +57,6 @@ font-family:Ubuntu-Bold ;
 }
 ::placeholder {
     color: rgb(115, 178, 252);
-    font-size: 12px;
-    padding-left: 14px;
 }
 .divCampos input {
     width: 100%;
@@ -71,6 +67,7 @@ font-family:Ubuntu-Bold ;
     background-color: rgb(249,249,249);
     color: rgb(115, 178, 252);
     font-family: Ubuntu-bold;
+    padding-left: 15px;
 }
 .divCampos p {
     margin:5px 0px 5px 0px;
